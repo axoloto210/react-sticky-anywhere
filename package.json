@@ -1,6 +1,6 @@
 {
   "name": "react-sticky-anywhere",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "A React hook that provides position:sticky behavior using Intersection Observer and position:fixed, unaffected by ancestor overflow properties",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -20,9 +20,18 @@
   "files": [
     "dist"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/axoloto210/react-sticky-anywhere.git"
+  },
+  "homepage": "https://github.com/axoloto210/react-sticky-anywhere#readme",
+  "bugs": {
+    "url": "https://github.com/axoloto210/react-sticky-anywhere/issues"
+  },
   "scripts": {
     "build": "tsup",
-    "dev": "tsup --watch"
+    "dev": "tsup --watch",
+    "prepublishOnly": "npm run build"
   },
   "keywords": [
     "react",
