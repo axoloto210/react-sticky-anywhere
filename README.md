@@ -1,6 +1,7 @@
 # react-sticky-anywhere
 
 **English** | [日本語](#日本語)
+
 Make HTML elements stick to the viewport even when parent elements have `overflow` settings.
 
 While CSS `position: sticky` is ideal for sticky behavior, it has a constraint: elements with `position: sticky` stick to the nearest ancestor with an `overflow` value other than `visible` (the default).
@@ -37,10 +38,6 @@ function Header() {
 const { sentinelRef, stickyRef, stickyStyle, placeholderStyle } =
   useStickyAnywhere({ bottom: 10 });
 ```
-
-## License
-
-MIT
 
 ---
 
@@ -82,7 +79,3 @@ function Header() {
 const { sentinelRef, stickyRef, stickyStyle, placeholderStyle } =
   useStickyAnywhere({ bottom: 10 });
 ```
-
-## ライセンス
-
-MIT
